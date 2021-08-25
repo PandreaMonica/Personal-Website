@@ -1,0 +1,45 @@
+body{ 
+    background-image:url("../images/gray-background.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+}
+
+input[type=text], input[type=email]{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+.submit {
+    background-color: #363444;
+    border: none;
+	color: #FFFFFF;
+	padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container {
+  border: 1px solid #ccc; 
+  border-radius: 15px;
+  margin:auto;
+  margin-top:130px;
+  padding: 20px;
+  width: 500px; 
+
+}
+
+label{
+	font-family: calibri;
+    font-weight: bold;
+    color:#6d6d6d;
+    font-size: 20px;
+}
+
